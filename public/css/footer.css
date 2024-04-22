@@ -1,0 +1,104 @@
+footer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 200px;
+  background-color: #E6DCBC;
+}
+@media screen and (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+    background-color: #E6DCBC;
+  }
+}
+footer > div {
+  padding: 0.5rem;
+}
+footer h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+footer .socials {
+  flex-wrap: wrap;
+  width: 50%;
+  list-style: none;
+  display: flex;
+  margin: 1rem 0;
+  padding: 0;
+}
+footer .socials li {
+  width: 2rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+footer .socials a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .socials a i {
+  font-size: 1.5rem;
+  transition: color 0.4s ease;
+}
+footer .socials a:hover i {
+  color: #6657b0;
+}
+footer .right-side {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+}
+footer .footer-block {
+  width: 100%;
+  text-align: center;
+}
+footer .footer-block a {
+  list-style-type: none;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+footer .footer-block ul {
+  text-align: left;
+  color: #fff;
+}
+footer .footer-block h2 {
+  padding: 5px;
+  margin: 10px;
+}
+
+.formulier .formulier-box {
+  margin: 20px;
+  text-align: left;
+}
+.formulier .formulier-box .user-box-naam input {
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  background-color: #D9D9D9;
+  border-radius: 5%;
+  height: 20px;
+}
+.formulier .formulier-box .user-box-feedback input {
+  border: none;
+  outline: none;
+  background-color: #D9D9D9;
+  border-radius: 5%;
+  height: 50px;
+}
+.formulier .formulier-box .Submit-button {
+  font-weight: bold;
+  margin-top: 10px;
+  background-color: #FAE980;
+  border: none;
+  outline: none;
+  border-radius: 5%;
+}
+.formulier .formulier-box .Submit-button:hover {
+  transition: 0.5s;
+  scale: 1.1;
+}
+
+/*# sourceMappingURL=footer.css.map */

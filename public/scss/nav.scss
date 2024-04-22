@@ -1,0 +1,139 @@
+
+@use "conf";
+@use "flex-grid";
+@use "flex-options";
+
+$color_1: #fff;
+$font-family_1: 'Arial Narrow Bold', sans-serif;
+$background-color_1: #E6DCBC;
+$background-color_2: #BCA674;
+
+
+body {
+    padding: 0;
+    margin: 0;
+	font-family: $font-family_1;
+}
+.nav-bar {
+    height: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	position: relative;
+	background-color: $background-color_1;
+}
+.logo {
+	img {
+		width: 80%;
+		height: 80%;
+		margin-bottom: -4px;
+	}
+}
+.menu {
+	display: flex;
+	li {
+        text-align: left;
+		padding-left: 7vh;
+		a {
+			display: inline-block;
+			text-decoration: none;
+			color: $color_1;
+			text-align: center;
+			transition: 0.18s ease-in-out;
+			position: relative;
+			text-transform: uppercase;
+			&::after {
+				content: "";
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				width: 0;
+				height: 3px;
+				background-color: white;
+				transition: 0.15s ease-in-out;
+			}
+			&:hover {
+				&:after {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+.open-menu {
+	position: absolute;
+	color: $color_1;
+	cursor: pointer;
+	font-size: 1.5rem;
+	display: none;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+}
+.close-menu {
+	position: absolute;
+	color: $color_1;
+	cursor: pointer;
+	font-size: 1.5rem;
+	display: none;
+	top: 20px;
+	right: 20px;
+}
+#check {
+	display: none;
+}
+@media (max-width: 974px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 76%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 100;
+    background-color: $background-color_1;
+    transition: all 0.2s ease-in-out;
+    li {
+      margin-top: 40px;
+      a {
+        padding: 10px;
+      }
+    }
+  }
+  .open-menu {
+    display: block;
+  }
+  .close-menu {
+    display: block;
+  }
+  #check {
+    &:checked {
+      ~ .menu {
+        right: 0;
+      }
+    }
+  }
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.list {
+    display: flex;
+}
+
+.position {
+    margin-top: auto;
+}
