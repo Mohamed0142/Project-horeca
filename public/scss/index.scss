@@ -1,0 +1,70 @@
+@use "conf";
+@use "flex-grid";
+@use "flex-options";
+
+
+body {
+    background-color: #BCA674;
+margin: 0;
+padding: 0;
+height: 100%;
+width: 100%;
+}
+
+
+
+.box-home {
+
+    padding-top: 50px;
+    width: 32%;
+    text-align: center;
+
+
+    p {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.text-box {
+    background-color: aliceblue;
+}
+
+
+
+.button-home {
+    margin: 10px;
+    background-color: #FAE980;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    h2 {
+        color: white;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .button-overlay {
+        background-color: #FAE980;
+        border: none;
+        outline: none;
+        padding: 5px 15px;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+}
+
