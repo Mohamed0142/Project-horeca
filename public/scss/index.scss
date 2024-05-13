@@ -67,4 +67,10 @@ width: 100%;
         margin-right: 10px;
     }
 }
+.text-overlay {
+    @media screen and (max-width: 768px) {
+        top: 5%;
+        left: 60%;
+    }
+}
 
