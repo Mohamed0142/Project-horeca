@@ -1,10 +1,9 @@
 <?php require_once __DIR__ . '/partials/_header.php' ?>
-
 <body>
 
   <div class="container">
     <h2>Inschrijfformulier</h2>
-    <form action="#" method="post">
+    <form action="/inschrijf" method="post">
       <div class="form-group">
         <label for="voornaam">Voornaam:</label>
         <input type="text" id="voornaam" name="voornaam" required>
