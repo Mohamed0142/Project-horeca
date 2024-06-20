@@ -18,7 +18,7 @@
 
     <script>
         setTimeout(function(){
-            window.location.href = '/inschrijf';
+            window.location.href = '/';
         }, 3000);
     </script>
 </body>

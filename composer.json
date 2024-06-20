@@ -1,0 +1,15 @@
+{
+    "name": "hamou/project-horeca",
+    "authors": [
+        {
+            "name": "mo121213132131",
+            "email": "hamoudishaaban16@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "School\\app\\": "School/app/"
+        }
+    }
+}
