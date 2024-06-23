@@ -26,8 +26,7 @@
   background: #E6DCBC;
   padding: 40px 60px;
 }
-
-h2 {
+.game-container h2 {
   font-size: 2em;
   color: white;
 }
