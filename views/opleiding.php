@@ -10,7 +10,7 @@
           <div class="bg-brown-light md:w-1/2 p-4">
             <h2 class="text-xl text-black font-bold">Over ons</h2>
             <p class="mt-2 pb-6">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium neque quis aliquam praesentium? Dolorum enim repellendus doloribus provident ad itaque voluptatem quae? Aspernatur, impedit! Voluptate dicta expedita accusamus dolorum sed veniam numquam aperiam tempora fuga? Est provident expedita mollitia necessitatibus possimus, quibusdam rem enim fuga ad, molestiae dolores ipsam ut eum exercitationem iusto ea explicabo illum id rerum ipsum vero doloribus, blanditiis voluptatem consequatur. Illo, in possimus. Ea exercitationem quod dicta vel impedit earum placeat sed perspiciatis commodi, suscipit, perferendis dolorum autem quidem odit voluptas culpa! Repudiandae quod placeat aliquid quidem ab rem quaerat accusamus dolorem omnis reprehenderit nulla, culpa cum voluptatibus ducimus, autem molestias vel delectus iusto voluptates ratione. Incidunt libero error, asperiores exercitationem nesciunt doloremque expedita quae placeat?
+              Welkom bij onze software developer opleiding. Onze cursus biedt uitgebreide kennis en vaardigheden in programmeren, software engineering, en systeemontwerp. Je leert werken met verschillende programmeertalen en tools en krijgt praktijkgerichte opdrachten en projecten om je vaardigheden in de echte wereld te testen.
             </p>
             <button class="bg-button font-bold py-2 px-4 rounded"><a href="/inschrijf">Inschrijven</a></button>
           </div>
@@ -24,14 +24,21 @@
       <section class="mb-8">
         <div class="flex flex-col md:flex-row">
           <div class="bg-brown-light md:w-1/2 p-4 flex justify-center">
-            <img src="img/horeca2.jpg" alt="Office" class="">
+            <img src="img/horeca2.jpg" alt="Office" class="w-full max-w-xs">
           </div>
           <div class="bg-brown-light md:w-1/2 p-4">
             <h2 class="text-xl font-bold text-black">Informatie</h2>
             <p class="mt-2 pb-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, minima! Aperiam, laboriosam suscipit. Asperiores illum sequi porro, eaque, rem aliquam neque quasi voluptatem eum perferendis doloribus, totam sed iure reiciendis aperiam praesentium. Soluta provident quod laborum ipsa, nesciunt harum magnam voluptas omnis saepe a, expedita temporibus aut, culpa aliquid maiores laboriosam quo quidem repellendus? Voluptate soluta sit natus magni voluptatem recusandae cumque laborum ut, ratione quas error corrupti, praesentium laudantium. Praesentium cum odit molestiae minus commodi aut ex. Reprehenderit veritatis vel, mollitia illum ducimus molestias corrupti perspiciatis ipsa aliquid nihil sunt labore fugit, illo officia repellat omnis repellendus incidunt. Molestiae soluta alias temporibus assumenda non, ex in sunt ut sit, voluptatibus sequi odit, impedit nemo! Quibusdam possimus perspiciatis eius commodi.
+              <strong>Toelatingseisen:</strong>
+              <ul class="list-disc ml-6 mt-2">
+                <li>Minimaal een middelbare schooldiploma (havo, vwo, of mbo-niveau 4)</li>
+                <li>Basiskennis van wiskunde en logica</li>
+                <li>Interesse in technologie en programmeren</li>
+                <li>Bereidheid om hard te werken en zelfstandig te leren</li>
+              </ul>
+              Onze opleiding is geschikt voor zowel beginners als degenen met enige ervaring in programmeren. We bieden een ondersteunende leeromgeving met ervaren docenten die klaar staan om je te helpen slagen.
             </p>
-              <button class="bg-button font-bold py-2 px-4 rounded"><a href="/inschrijf">Inschrijven</a></button>
+            <button class="bg-button font-bold py-2 px-4 rounded"><a href="/inschrijf">Inschrijven</a></button>
           </div>
         </div>
       </section>
